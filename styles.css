@@ -1,0 +1,76 @@
+.header {
+background-color: darkolivegreen;
+font-size: 50px;
+display: flex;
+justify-content: space-between;
+}
+
+.header nav {
+    font-size: 30px;
+    text-decoration: underline;
+    padding-right: 5px;
+}
+
+#avatar {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.first-project {
+width: 300px;
+height: 100px;
+display: flex;
+float: right;
+}
+
+#photo-1{
+    width: 300px;
+    height: 300px;
+    border: 5px;
+    border-style: dashed;
+    border-color: darkolivegreen;
+}
+
+#Image-2 { 
+    width: 150px;
+    height: 150px;
+    border: 5px;
+    border-style: dashed;
+    border-color: darkolivegreen;
+}
+
+#Image-3 {
+    width: 150px;
+    height: 150px;
+    border: 5px;
+    border-style: dashed;
+    border-color: darkolivegreen;
+}
+
+#Image-4 {
+    width: 150px;
+    height: 150px;
+    border: 5px;
+    border-style: dashed;
+    border-color: darkolivegreen;
+}
+
+#Image-5 {
+    width: 150px;
+    height: 150px;
+    border: 5px;
+    border-style: dashed;
+    border-color: darkolivegreen;
+}
+
+.containers {
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    border: 5px;
+    border-style: solid;
+    border-color: darkolivegreen;
+}
