@@ -1,60 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>Eric Wall's Portfolio</title>
-
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1 class="header"> <img id="avatar" src="./unnamed (1).jpg" alt="A photo of me wearing a clown nose">Eric Wall's Developer Portfolio
+      <h1 class="header">
+        <img
+          id="avatar"
+          src="./unnamed (1).jpg"
+          alt="A photo of me wearing a clown nose"
+        />Eric Wall's Developer Portfolio
         <nav>
-            <ul>
-                <li>
-                    About Me
-                </li>
-                <li>
-                    Applications
-                </li>
-                <li>
-                    Contact Me
-                </li>
-             </ul>
-            </nav>
-        </h1>
-</header>
-<h2>About Me</h2>
-<p>A little about me, I'm 22 years old and was born and raised in Seattle. I graduated high school in 2018 and have been working ever since. When I'm not working I really like to watch sports,
-my favorite sports to watch would have to be Hockey and baseball. I also like to play video games and get out into the mountains sometimes.
-</p>
-<main>
-    <section>
-        <div class="first-project">
-    <h2>Landing Page Project</h2>
-    <img id="photo-1" src="./Images/HW1 screenshot.PNG" alt="A screenshot of my first project">
-    </section>
-    <section class="containers">
-    <div class="placeholder-column">
-        <h2>Coming Soon</h2>
-        <img id="Image-2" src="./Images/1.png" alt="1st placeholder image of the #1">
-    </div>
-    <div class="placeholder-column">
-        <h2>Coming Soon</h2>
-        <img id="Image-3" src="./Images/2.png" alt="2nd placeholder image">
-    </div>
-    <div class="placeholder-column">
-        <h2>Coming Soon</h2>
-        <img id="Image-4" src="./Images/3.png" alt="3rd placeholder image">
-    </div>
-    <div class="placeholder-column">
-        <h2>Coming Soon</h2>\
-        <img id="Image-5" src="./Images/4.png" alt="3rd placeholder image">
-    </div>
-    </section>
-</main>
+          <ul>
+            <li>
+              <a href="#about-me">About Me</a>
+            </li>
+            <li>
+              <a href="#applications">Applications</a>
+            </li>
+            <li>
+              <a href="#contact-me">Contact Me</a>
+            </li>
+          </ul>
+        </nav>
+      </h1>
+    </header>
+    <h2 class="about-me">About Me</h2>
+    <p>
+      A little about me, I'm 22 years old and was born and raised in Seattle. I
+      graduated high school in 2018 and have been working ever since. When I'm
+      not working I really like to watch sports, my favorite sports to watch
+      would have to be Hockey and baseball. I also like to play video games and
+      get out into the mountains sometimes. I've enrolled in the full stack
+      bootcamp in hopes for a potentional career change. Since I graduated
+      highschool I've worked at costco and would like to move away from that
+      field.
+    </p>
+
+    <h2 class="contact-me">Contact Me</h2>
+    <p>For any contact needs I can be reached by any of the following</p>
+    <ul>
+      <li>
+        <Email->walleric23@gmail.com</Email->
+      </li>
+      <li>Phone- (XXX)-XXX-XXXX</li>
+      <li>
+        <a href="https://github.com/walleric23">Github</a>
+      </li>
+    </ul>
+    <main>
+      <section class="portfolio-container">
+        <article class="first-project">
+          <h2 id="applications">Landing Page Project</h2>
+          <a href="https://walleric23.github.io/Semantic-markup/">
+            <img
+              id="photo-1"
+              src="./Images/HW1 screenshot.PNG"
+              alt="A screenshot of my first project"
+            />
+          </a>
+        </article>
+        <h2>Applications</h2>
+        <article class="containers">
+          <div class="placeholder-column">
+            <h2>Coming Soon</h2>
+            <img
+              id="Image-2"
+              src="./Images/1.png"
+              alt="1st placeholder image of the #1"
+            />
+          </div>
+          <div class="placeholder-column">
+            <h2>Coming Soon</h2>
+            <img
+              id="Image-3"
+              src="./Images/2.png"
+              alt="2nd placeholder image"
+            />
+          </div>
+          <div class="placeholder-column">
+            <h2>Coming Soon</h2>
+            <img
+              id="Image-4"
+              src="./Images/3.png"
+              alt="3rd placeholder image"
+            />
+          </div>
+          <div class="placeholder-column">
+            <h2>Coming Soon</h2>
+            <img
+              id="Image-5"
+              src="./Images/4.png"
+              alt="3rd placeholder image"
+            />
+          </div>
+        </article>
+      </section>
+    </main>
     <footer></footer>
-</body>
+  </body>
 </html>

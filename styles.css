@@ -1,76 +1,105 @@
 .header {
-background-color: darkolivegreen;
-font-size: 50px;
-display: flex;
-justify-content: space-between;
+  background-color: darkolivegreen;
+  font-size: 50px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header nav {
-    font-size: 30px;
-    text-decoration: underline;
-    padding-right: 5px;
+  font-size: 30px;
+  text-decoration: underline;
+  padding-right: 5px;
 }
 
 #avatar {
-    max-width: 200px;
-    max-height: 200px;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.portfolio-container {
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .first-project {
-width: 300px;
-height: 100px;
-display: flex;
-float: right;
-}
-
-#photo-1{
-    width: 300px;
-    height: 300px;
-    border: 5px;
-    border-style: dashed;
-    border-color: darkolivegreen;
-}
-
-#Image-2 { 
-    width: 150px;
-    height: 150px;
-    border: 5px;
-    border-style: dashed;
-    border-color: darkolivegreen;
-}
-
-#Image-3 {
-    width: 150px;
-    height: 150px;
-    border: 5px;
-    border-style: dashed;
-    border-color: darkolivegreen;
-}
-
-#Image-4 {
-    width: 150px;
-    height: 150px;
-    border: 5px;
-    border-style: dashed;
-    border-color: darkolivegreen;
-}
-
-#Image-5 {
-    width: 150px;
-    height: 150px;
-    border: 5px;
-    border-style: dashed;
-    border-color: darkolivegreen;
+  width: 55%;
+  height: 350px;
+  border: 1px solid red;
 }
 
 .containers {
-    float: right;
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.placeholder-column {
+  width: 40%;
+}
+
+#photo-1 {
+  width: auto;
+  height: 200px;
+  border: 5px;
+  border-style: dashed;
+  border-color: darkolivegreen;
+  justify-self: center;
+}
+
+#Image-2 {
+  width: 150px;
+  height: 150px;
+  border: 5px;
+  border-style: dashed;
+  border-color: darkolivegreen;
+}
+
+#Image-3 {
+  width: 150px;
+  height: 150px;
+  border: 5px;
+  border-style: dashed;
+  border-color: darkolivegreen;
+}
+
+#Image-4 {
+  width: 150px;
+  height: 150px;
+  border: 5px;
+  border-style: dashed;
+  border-color: darkolivegreen;
+}
+
+#Image-5 {
+  width: 150px;
+  height: 150px;
+  border: 5px;
+  border-style: dashed;
+  border-color: darkolivegreen;
 }
 
 body {
-    border: 5px;
-    border-style: solid;
-    border-color: darkolivegreen;
+  border: 5px;
+  border-style: solid;
+  border-color: darkolivegreen;
+  background-color: lightgray;
+}
+
+@media screen and (max-width: 576px) {
+  .placeholder-column {
+    display: block;
+  }
+  #photo-1 {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    background-color: aliceblue;
+  }
 }
