@@ -91,6 +91,14 @@ body {
   background-color: lightgray;
 }
 
+#moodboard {
+  width: auto;
+  height: 200px;
+  border: 5px;
+  border-style: dashed;
+  border-color: darkolivegreen;
+}
+
 /* adds responsive traits for varying screen sizes. */
 @media screen and (max-width: 576px) {
   .placeholder-column {
